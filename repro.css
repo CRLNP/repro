@@ -1,0 +1,25 @@
+.footer-note {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    height: 30px;
+    font-size: 0.7em;
+}
+
+
+.small { font-size: 90% }
+.footnotesize { font-size: 80% }
+.scriptsize { font-size: 70% }
+.tiny { font-size: 60% }
+.verytiny { font-size: 40% }
+
+.justify-right {
+  text-align: right;
+  float: right;
+  clear: right;
+}
+
+.large { 
+    font-size: 120% ;
+    color: #317EAC;
+}
