@@ -1,5 +1,5 @@
 ---
-title: "Reproductibilité de la recherche: <br> phénomène et bonnes pratiques"
+title: "Reproductibilité de la recherche: <br> enjeux et bonnes pratiques"
 author: "Caroline Patenaude <br> Bibliothèque des lettres et sciences humaines"
 date: "`r Sys.Date()`"
 output:
@@ -14,7 +14,7 @@ output:
 
 
 
-## Reproductibilité de la recherche: <br> phénomène et bonnes pratiques
+## Reproductibilité de la recherche: <br> enjeux et bonnes pratiques
 
 <div class="justify-right"> 
 ![](images/journal.png)

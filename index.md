@@ -1,7 +1,7 @@
 ---
-title: "Reproductibilité de la recherche: <br> phénomène et bonnes pratiques"
+title: "Reproductibilité de la recherche: <br> enjeux et bonnes pratiques"
 author: "Caroline Patenaude <br> Bibliothèque des lettres et sciences humaines"
-date: "2020-10-30"
+date: "2020-11-01"
 output:
   slidy_presentation:
     footer: Caroline Patenaude, BLSH, 2 novembre 2020, caroline.patenaude@umontreal.ca
@@ -14,7 +14,7 @@ output:
 
 
 
-## Reproductibilité de la recherche: <br> phénomène et bonnes pratiques
+## Reproductibilité de la recherche: <br> enjeux et bonnes pratiques
 
 <div class="justify-right"> 
 ![](images/journal.png)
