@@ -1,10 +1,10 @@
 ---
 title: "Reproductibilité de la recherche: <br> enjeux et bonnes pratiques"
 author: "Caroline Patenaude <br> Bibliothèque des lettres et sciences humaines"
-date: "2020-11-01"
+date: "2021-02-06"
 output:
   slidy_presentation:
-    footer: Caroline Patenaude, BLSH, 2 novembre 2020, caroline.patenaude@umontreal.ca
+    footer: Caroline Patenaude, BLSH, 8 février 2021, caroline.patenaude@umontreal.ca
     highlight: espresso
     keep_md: yes
     theme: cerulean
@@ -34,6 +34,12 @@ Formation 1
 
 <div class="large"> 
 Formation 2
+</div>
+
+- Se familiariser avec RStudio et le le langage R
+
+<div class="large"> 
+Formation 3
 </div>
 
 - Se familiariser avec RStudio et le package RMarkdown pour générer des documents dynamiques
@@ -120,8 +126,8 @@ Principe à la base de la reproductibilité est que l'unité traditionnelle de l
 –	**Marche pas!**
 </div>
 
-<div class="tenor-gif-embed" data-postid="16668757" data-share-method="host" data-width="20%"  data-aspect-ratio="0.7991967871485944"><a href="https://tenor.com/view/smarty-pants-what-is-this-cats-kittens-cute-gif-16668757">Smarty Pants What Is This GIF</a> from <a href="https://tenor.com/search/smartypants-gifs">Smartypants GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
+![](images/tenor.gif){width=320px}
 
 ## Reproductibilité? Réplicabilité? Répétabilité? De quoi parle-t-on?
 </br>
@@ -144,11 +150,6 @@ Bref, une recherche est *reproductible* si tout le matériel (documentation, ana
 
 </br>
 
-<div class="footnotesize">
-À noter, en sciences sociales (qualitatives), on parle généralement plus de "réflexivité" que de reproductibilité, c'est à dire "soumettre à une analyse critique non seulement sa propre pratique scientifique (opérations, outils et postulats), mais également les conditions sociales de toute production intellectuelle".  [Rui](https://journals.openedition.org/sociologie/1584#entries) 
-</div>
-
-<br>
 
 Voir [*The Turing Way*](https://the-turing-way.netlify.app/welcome.html)
 
@@ -194,13 +195,29 @@ Certains vont plus loin en distinguant différents types de reproductibilité: e
 
 </br>
 
-La reproductibilité n'est pas gage de "résultats scientifiques", mais de **transparence**. Les "mauvaises analyses" peuvent aussi être reproductibles!
+La *reproductibilité* des résutats n'est pas synonyme de **validité**, mais de **transparence**. Les "mauvaises analyses" peuvent aussi être reproductibles!
 
+
+## Et le qualitatif ?
+
+
+- En sciences sociales qualitatives, on parle généralement plus de "réflexivité" que de reproductibilité, c'est à dire "soumettre à une analyse critique non seulement sa propre pratique scientifique (opérations, outils et postulats), mais également les conditions sociales de toute production intellectuelle".  [Rui](https://journals.openedition.org/sociologie/1584#entries) 
+
+<img align="right"  src="images/bourdieu.jpg">
+</br>
+
+- Nombreux débats depuis des décennies sur la reconnaissance de la "subjectivité", la spécificité épistémologique des sciences humaines, le dualisme méthodologique entre recherche qualitative et quantitative, ...
+
+- La "rigueur scientifique" ne peut reposer que sur le seul critère de **reproductibilité** puisqu'on ne peut de reproduire les conditions exactes d’une recherche qualitative.
+
+</br>
+
+> "Si vous me laissez mener une analyse qualitative exactement comme je l’entends, je ne vais pas du tout me pencher sur le pourcentage de telle ou telle réponse, car cela ne m’intéresse pas. [...] Ne me demandez pas ensuite si cela est reproductible. Ça ne l’est pas et ce n’est d’ailleurs pas du tout le but. Je ne mène pas des enquêtes pour qu’elles soient établies comme vérité après que deux ou trois autres enquêtes auront reproduit la mienne et seront arrivées aux mêmes résultats." (Paillé, 2019 )
 
 
 ## Les causes de la "crise"
 
-- Les causes sont nombreuses et ne sont pas nécessairement liées à une intention de « fraude scientifique ».
+- Les causes sont nombreuses et ne sont pas nécessairement liées à une intention de fraude scientifique. 
 - Défaut de maitriser pleinement certaines méthodes et outils > Complexité croissante des modèles d'analyses, des outils, des bases de données.
 - Pression accrue sur les chercheurs (*publish or perish*) peut encourager certaines conduites "hasardeuses" qui mettent en péril l’intégrité scientifique.
 
@@ -214,10 +231,11 @@ La reproductibilité n'est pas gage de "résultats scientifiques", mais de **tra
 
 ## Les causes de la "crise"
 
+<img align="right"  src="images/torture.png">
+
 <center>
 ![](images/threats.png)
 </center>
-
 
 <div class="footer-note">
 [A manifesto for reproducible science, 2017](https://www.nature.com/articles/s41562-016-0021)
@@ -233,8 +251,13 @@ La reproductibilité n'est pas gage de "résultats scientifiques", mais de **tra
 - Organismes subventionnaires: [NIH](https://grants.nih.gov/policy/reproducibility/guidance.htm)
 - Éditeurs et associations scientifiques: [American Economic Association](https://replicationnetwork.com/2019/07/17/big-changes-in-reproducibility-policies-by-the-american-economic-association/)
 - Création de réseaux de "réplication": [Political science Replication Network](https://replicationnetwork.com/tag/political-science-replication/), [OSF - Many Labs](https://osf.io/8cd4r/)
-- Préenregistrement d'études: [OSF - Registered Reports](https://osf.io/rr/)
+- Préenregistrement d'études: [OSF - Registered Reports](https://osf.io/rr/) > soumettre méthodologie avant de faire recherche pour contrôler biais possibles. Journal publie résultats, significatifs ou non (peu importe la valeur p!)
 </div>
+
+## Initiatives pour changer les "cultures scientifiques"
+
+<iframe src="https://www.cos.io/" scrolling= "yes"></iframe>
+
 
 ## Les solutions
 
@@ -506,7 +529,14 @@ Document reliant les résultats, le code qui les a générés et les commentaire
 *Attention car le transfert en format texte peut entrainer des pertes d'information sur les variables. Il est conseillé de créer un dictionnaire de codes pour décrire ses variables (peut être automatisé).
 </div>
 
-Principes de [*Tidy Data*](https://vita.had.co.nz/papers/tidy-data.pdf) (Hadley Wickham)
+<img align="right" src="images/open-refine.png">
+
+- Principes de [*Tidy Data*](https://vita.had.co.nz/papers/tidy-data.pdf) (Hadley Wickham)
+
+- Outil de nettoyage: https://openrefine.org/
+
+
+
 
 ## 6. Choisir de bons outils
 
@@ -522,9 +552,17 @@ Plusieurs outils de programmation  peuvent être utilisés pour améliorer la re
 
 - Baker,Monya,  26 May 2016, 1",500 scientists lift the lid on reproducibility", *Nature* 533, doi:10.1038/533452a 
 
+- Banks, G.C., Rogelberg, S.G., Woznyj, H.M. et al. Editorial: Evidence on Questionable Research Practices: The Good, the Bad, and the Ugly. J Bus Psychol 31, 323–338 (2016). https://doi.org/10.1007/s10869-016-9456-7
+
 - Barba, Lorena A., 2018, "Terminologies for Reproducible Research", arXiv:1802.03311 
 
+- Bem, D. J. 2011, "Feeling the future: Experimental evidence for anomalous retroactive influences on cognition and affect", *Journal of Personality and Social Psychology* 100: 407–425. https://psycnet.apa.org/record/2011-01894-001
+
+- Brière, L., Mélissa Lieutenant-Gosselin et Florence Piron, 2019, [Et si la recherche scientifique ne pouvait pas être neutre?](https://corpus.ulaval.ca/jspui/bitstream/20.500.11794/34463/1/Et-si-la-recherche-scientifique-ne-pouvait-pas-e%CC%82tre-neutre-FINALE._print.pdf), Éditions science et bien commun.
+
 - Buckheit, Jonathan B., David L. Donoho, 1995, *WaveLab and Reproducible Research*, Stanford University, https://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf
+
+- Button, K. S., et al, 2013, "Power failure: Why small sample size undermines the reliability of neuroscience". *Nature Reviews: Neuroscience* 14:365–376. https://www.nature.com/articles/nrn3475#change-history
 
 - Chen, X., Dallmeier-Tiessen, S., Dasler, R. et al., 2019, "Open is not enough". *Nature Phys*, 15, 113–119, https://doi.org/10.1038/s41567-018-0342-2
 
@@ -536,6 +574,14 @@ Plusieurs outils de programmation  peuvent être utilisés pour améliorer la re
 
 - Donoho,David L., July 2010, "An invitation to reproducible computational research", *Biostatistics*, 11, 3, 385–388, https://doi.org/10.1093/biostatistics/kxq028
 
+- EconTalk, 20 mars 2017, *Andrew Gelman on Social Science, Small Samples, and the Garden of the Forking Paths*, https://www.econtalk.org/andrew-gelman-on-social-science-small-samples-and-the-garden-of-the-forking-paths/
+
+- FiveThirtyEight, *Hack Your Way To Scientific Glory*, https://projects.fivethirtyeight.com/p-hacking/
+
+- Gelman, A., Eric Loken, 2013, *The garden of forking paths: Why multiple comparisons can be a problem, even when there is no “fishing expedition” or “p-hacking” and the research hypothesis was posited ahead of time*. http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf
+
+- Gelman, A., Eric Loken, 2014, "The Statistical Crisis in Science", *American Scientist*, 102, 6: p.460. https://www.americanscientist.org/article/the-statistical-crisis-in-science
+
 - Gupta, Amarnath,  2009, "Data Provenance", *Encyclopedia of Database Systems*, Ed.: LING LIU, M. TAMER ÖZSU, https://doi.org/10.1007/978-0-387-39940-9_1305
 
 - Ioannidis, John P. A.,  2005, "Why Most Published Research Findings Are False", *Plos Medicine*, https://doi.org/10.1371/journal.pmed.0020124
@@ -545,6 +591,8 @@ Plusieurs outils de programmation  peuvent être utilisés pour améliorer la re
 - Liberman, Mark, 2015, "Replicability vs. reproducibility — or is it the other way around?", *The Language Log*, https://languagelog.ldc.upenn.edu/nll/?p=21956
 
 - Munafò, M., Nosek, B., Bishop, D. et al., 2017,  "A manifesto for reproducible science", *Nat Hum Behav*, 1, 0021, https://doi.org/10.1038/s41562-016-0021
+
+- Paillé, P. (2019). Trente ans de développement du champ de l’analyse qualitative. Recherches qualitatives, 38 (1), 13–31. https://doi.org/10.7202/1059645ar
 
 - Peng, Roger D., July 2009, "Reproducible research and Biostatistics", *Biostatistics*, Volume 10, Issue 3, 405–408, https://doi.org/10.1093/biostatistics/kxp014
 
@@ -556,11 +604,28 @@ Plusieurs outils de programmation  peuvent être utilisés pour améliorer la re
 
 - Scott, Teresa, 2009, *Problems with using Microsoft Excel, for Statistical Analysis & Graphics*, CRC Research Skills Workshop, Department of Biostatistics, vanderbilt, http://biostat.mc.vanderbilt.edu/wiki/pub/Main/TheresaScott/StatsInExcel.TAScott.slides.pdf
 
+- Simmons, Joseph P.,  Nelson2, Leif D., Simonsohn, Uri, 2011, "False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant", *Psychological Science*, 22, 11, p. 1359-1366.  https://journals.sagepub.com/doi/full/10.1177/0956797611417632
+
 - Somers, James, April 5 2018, "The Scientific Paper Is Obsolete Here’s what’s next", *The Atlantic*, https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/
 
-- Stodden, VictoriaApril 5, 2018, *The Science of Computational Reproducibility*, Speaker Lecture, School of Information Sciences University of Illinois at Urbana-Champaign, https://web.stanford.edu/~vcs/talks/UDel-2018-STODDEN.pdf
+- Stodden, Victoria, 5 avril, 2018, *The Science of Computational Reproducibility*, Speaker Lecture, School of Information Sciences University of Illinois at Urbana-Champaign, https://web.stanford.edu/~vcs/talks/UDel-2018-STODDEN.pdf
 
 - Rui, Sandrine, "Réflexivité", *Sociologie [En ligne], Les 100 mots de la sociologie*, mis en ligne le 01 août 2012, consulté le 30 octobre 2020.,  http://journals.openedition.org/sociologie/1584
 
 - Wicherts JM, Bakker M, Molenaar D, 2011, "Willingness to Share Research Data Is Related to the Strength of the Evidence and the Quality of Reporting of Statistical Results". *PLoS ONE* 6(11): e26828. https://doi.org/10.1371/journal.pone.0026828
 </div>
+
+<style>
+  
+iframe {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100vw; 
+  min-height: 100vh; 
+  z-index: -1000; 
+  overflow: hidden;
+}
+</style>
