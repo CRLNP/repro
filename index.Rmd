@@ -58,7 +58,7 @@ Formation 3
 </center>
 
 <div class="footer-note">
-[1,500 scientists lift the lid on reproducibility, Nature, Vol. 533, No. 7604](https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970)
+[1,500 scientists lift the lid on reproducibility, Nature, Vol. 533, No. 7604, 2016](https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970)
 </div>
 
 ## La "crise" de la reproductibilité
@@ -78,8 +78,43 @@ Formation 3
 ![](images/science.png)
 </center>
 
+## La "crise" de la reproductibilité
+
+### Un peu de recul...
+
+<br>
+
+<center>
+![](images/eco.png)
+</center>
+
+<br>
+
+> *[Standard Charts and Tables: Original Data](https://www.jstor.org/stable/1928764?origin=crossref&seq=18#metadata_info_tab_contents)*
+> 1919 - The Review of Economics and Statistics
+
+<br>
+
+- Apparition de la notion de "recherche reproductible" en 1992 par [Claerbout](http://sep.stanford.edu/oldsep/matt/join/redoc/web/seg92.html).
+
+> "Our basic goal is reproductible research. The electronic document is our means to this end".
+
+- Philosophie et méthodologie adoptées par [Buckheit and Donoho (1995)](https://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf)
+
+> “reproducibility of experiments in seismic exploration requires having the complete software environment available in other laboratories and the full source code available for inspection, modification, and application under varied parameter settings.”
+
+<br>
+
+- [Gary King, "Replication, Replication", *PS: Political Science & Politics*, 1995](https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/replication-replication/85C204B396C5060963589BDC1A8E7357) 
+
+> "Political science is a community enterprise; the community of empirical political scientists needs access to the body of data necessary to replicate existing studies to understand, evaluate, and especially build on this work. Unfortunately, the norms we have in place now do not encourage, or in some cases even permit, this aim."
+
 
 ## Débordement dans la "culture populaire"
+
+### De débats disciplinaires à "crise de confiance"...
+
+<br>
 
 <center>
 ![](images/media.png)
@@ -88,10 +123,94 @@ Formation 3
 
 ## Débordement dans la "culture populaire"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FLNeWgs2n_Q" frameborder="0" allowfullscreen></iframe>
+<iframe width="460" height="215" src="https://www.youtube.com/embed/FLNeWgs2n_Q" frameborder="10" allowfullscreen></iframe>
 
 
-## Constat #1 : l'article ne suffit plus
+## Constat #1 : Confusion dans les termes
+
+### Reproductibilité? Réplicabilité? Répétabilité? De quoi parle-t-on?
+</br>
+
+- On retrouve de nombreuses définitions, très variables, voire contradictoires, entre et au sein même des disciplines
+
+</br>
+
+En résumé ([Barba, 2018](https://arxiv.org/abs/1802.03311)):
+
+***Reproducible**: Authors provide all the necessary data and the computer codes to run
+the analysis again, re-creating the results.*
+
+</br>
+
+Bref, une recherche est *reproductible* si tout le matériel (documentation, analyses, données, code)  est rendu disponible de façon à ce qu'un chercheur indépendant soit en mesure de reproduire les résultats originaux.
+
+</br>
+
+***Replication**: A study that arrives at the same scientific findings as another study, collecting new data (possibly with different methods) and completing new analyses.*
+
+</br>
+
+- [Peng 2006](https://academic.oup.com/aje/article/163/9/783/108733) : 
+
+> “The replication of important findings by multiple independent investigators is fundamental to the accumulation of scientific evidence. Researchers in the biologic and physical sciences expect results to be replicated by *independent data, analytical methods, laboratories, and instruments*.”
+
+
+
+
+Voir [*The Turing Way*](https://the-turing-way.netlify.app/welcome.html)
+
+## Constat #1 : Confusion dans les termes
+
+### La reproductibilité comme *continuum*
+
+</br>
+
+MAIS, toutes les recherches ne sont pas "réplicables", elles devraient donc être, au minimum, reproductibles.
+
+> "An attainable minimum standard is “reproducibility,” which calls for data sets and software to be made available for verifying published findings and conducting alternative analyses."
+
+
+<center>
+
+![](images/spectrum.png)
+
+[Reproducible Research in Computational Science, Peng, 2011](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3383002/)
+</center>
+
+</br>
+
+Certains vont plus loin en distinguant différents types de *reproductibilité*: empirique, méthodologique, statistique, informatique, ... [Stodden, 2018](https://web.stanford.edu/~vcs/talks/UDel-2018-STODDEN.pdf)
+
+</br>
+
+
+Mais dans la littérature, le terme *replication* est souvent utilisé de façon "générique" (*replication projects, studies, networks...*). 
+
+</br>
+
+## Constat #1 : Confusion dans les termes
+
+### Et le qualitatif ?
+
+
+- En sciences sociales qualitatives, on parle généralement plus de "réflexivité" que de reproductibilité, c'est à dire "soumettre à une analyse critique non seulement sa propre pratique scientifique (opérations, outils et postulats), mais également les conditions sociales de toute production intellectuelle".  [Rui](https://journals.openedition.org/sociologie/1584#entries) 
+
+<img align="right"  src="images/bourdieu.jpg">
+</br>
+
+- Nombreux débats depuis des décennies sur la reconnaissance de la "subjectivité", la spécificité épistémologique des sciences humaines, le dualisme méthodologique entre recherche qualitative et quantitative, ...
+
+- La "rigueur scientifique" ne peut reposer que sur le seul critère de **reproductibilité** puisqu'on ne peut de reproduire les conditions exactes d’une recherche qualitative.
+
+</br>
+
+> "Si vous me laissez mener une analyse qualitative exactement comme je l’entends, je ne vais pas du tout me pencher sur le pourcentage de telle ou telle réponse, car cela ne m’intéresse pas. [...] Ne me demandez pas ensuite si cela est reproductible. Ça ne l’est pas et ce n’est d’ailleurs pas du tout le but. Je ne mène pas des enquêtes pour qu’elles soient établies comme vérité après que deux ou trois autres enquêtes auront reproduit la mienne et seront arrivées aux mêmes résultats." (Paillé, 2019 )
+
+</br>
+
+NB! La *reproductibilité* des résultats n'est pas synonyme de **validité**, mais de **transparence**. Les "mauvaises analyses" peuvent aussi être reproductibles!
+
+## Constat #2 : l'article ne suffit plus
 
 
 > “an article about computational result is advertising, not scholarship. The actual scholarship is the full software environment, code and data, that produced the result.” [Claerbout cité par in Buckheit and Donoho, 1995](https://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf)
@@ -105,7 +224,7 @@ Principe à la base de la reproductibilité est que l'unité traditionnelle de l
 
 ![](images/obsolete.gif)
 
-## Constat #2 : les données ne suffisent plus non plus
+## Constat #3 : les données ne suffisent plus non plus
 
 <br>
 
@@ -129,95 +248,13 @@ Principe à la base de la reproductibilité est que l'unité traditionnelle de l
 
 ![](images/tenor.gif){width=320px}
 
-## Reproductibilité? Réplicabilité? Répétabilité? De quoi parle-t-on?
-</br>
-
-- On retrouve de nombreuses définitions, très variables, voire contradictoires, entre et au sein même des disciplines
-
-</br>
-
-En résumé ([Barba, 2018](https://arxiv.org/abs/1802.03311)):
-
-***Reproducible**: Authors provide all the necessary data and the computer codes to run
-the analysis again, re-creating the results.*
-
-
-***Replication**: A study that arrives at the same scientific findings as another study, collecting new data (possibly with different methods) and completing new analyses.*
-
-</br>
-
-Bref, une recherche est *reproductible* si tout le matériel (documentation, analyses, données, code)  est rendu disponible de façon à ce qu'un chercheur indépendant soit en mesure de reproduire les résultats originaux.
-
-</br>
-
-
-Voir [*The Turing Way*](https://the-turing-way.netlify.app/welcome.html)
-
-## Reproductibilité? Réplicabilité? Répétabilité? De quoi parle-t-on?
-
-**Petit historique**:
-
-- Première apparition de la notion de "recherche reproductible" en 1992 par [Claerbout](http://sep.stanford.edu/oldsep/matt/join/redoc/web/seg92.html).
-
-> "Our basic goal is reproductible research. The electronic document is our means to this end".
-
-- Philosophie et méthodologie adoptées par [Buckheit and Donoho (1995)](https://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf)
-
-> “reproducibility of experiments in seismic exploration requires having the complete software environment available in other laboratories and the full source code available for inspection, modification, and application under varied parameter settings.”
-
-
-- Distinction de **réplication** [Peng 2006](https://academic.oup.com/aje/article/163/9/783/108733) : 
-
-> “The replication of important findings by multiple independent investigators is fundamental to the accumulation of scientific evidence. Researchers in the biologic and physical sciences expect results to be replicated by *independent data, analytical methods, laboratories, and instruments*.”
-
-MAIS, toutes les recherches ne sont pas "réplicables"...
-
-> "An attainable minimum standard is “reproducibility,” which calls for data sets and software to be made available for verifying published findings and conducting alternative analyses."
-
-#### Donc, elles devraient être au **minimum "reproductibles"**.
 
 
 
-## La reproductibilité comme *spectrum*
+## Les causes de *l'irreproductibilité*
 
-</br>
-
-<center>
-
-![](images/spectrum.png)
-
-[Reproducible Research in Computational Science, Peng, 2011](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3383002/)
-</center>
-
-</br>
-
-Certains vont plus loin en distinguant différents types de reproductibilité: empirique, méthodologique, statistique, informatique, ... [Stodden, 2018](https://web.stanford.edu/~vcs/talks/UDel-2018-STODDEN.pdf)
-
-</br>
-
-La *reproductibilité* des résutats n'est pas synonyme de **validité**, mais de **transparence**. Les "mauvaises analyses" peuvent aussi être reproductibles!
-
-
-## Et le qualitatif ?
-
-
-- En sciences sociales qualitatives, on parle généralement plus de "réflexivité" que de reproductibilité, c'est à dire "soumettre à une analyse critique non seulement sa propre pratique scientifique (opérations, outils et postulats), mais également les conditions sociales de toute production intellectuelle".  [Rui](https://journals.openedition.org/sociologie/1584#entries) 
-
-<img align="right"  src="images/bourdieu.jpg">
-</br>
-
-- Nombreux débats depuis des décennies sur la reconnaissance de la "subjectivité", la spécificité épistémologique des sciences humaines, le dualisme méthodologique entre recherche qualitative et quantitative, ...
-
-- La "rigueur scientifique" ne peut reposer que sur le seul critère de **reproductibilité** puisqu'on ne peut de reproduire les conditions exactes d’une recherche qualitative.
-
-</br>
-
-> "Si vous me laissez mener une analyse qualitative exactement comme je l’entends, je ne vais pas du tout me pencher sur le pourcentage de telle ou telle réponse, car cela ne m’intéresse pas. [...] Ne me demandez pas ensuite si cela est reproductible. Ça ne l’est pas et ce n’est d’ailleurs pas du tout le but. Je ne mène pas des enquêtes pour qu’elles soient établies comme vérité après que deux ou trois autres enquêtes auront reproduit la mienne et seront arrivées aux mêmes résultats." (Paillé, 2019 )
-
-
-## Les causes de la "crise"
-
-- Les causes sont nombreuses et ne sont pas nécessairement liées à une intention de fraude scientifique. 
+- Les causes sont nombreuses et ne sont pas nécessairement liées à une intention de fraude scientifique. Entre autres: 
+- Non disponibilité des données, documentation, codes... (mentionnons l'usage accrue de données protégées).
 - Défaut de maitriser pleinement certaines méthodes et outils > Complexité croissante des modèles d'analyses, des outils, des bases de données.
 - Pression accrue sur les chercheurs (*publish or perish*) peut encourager certaines conduites "hasardeuses" qui mettent en péril l’intégrité scientifique.
 
@@ -231,14 +268,15 @@ La *reproductibilité* des résutats n'est pas synonyme de **validité**, mais d
 
 ## Les causes de la "crise"
 
-<img align="right"  src="images/torture.png">
+<img align="right"  src="images/jeopardy.png">
 
 <center>
-![](images/threats.png)
+![](images/threats.png) 
 </center>
 
 <div class="footer-note">
 [A manifesto for reproducible science, 2017](https://www.nature.com/articles/s41562-016-0021)
+[Questionnable Research Practices, The Journal of Clinical Psychiatry](https://www.psychiatrist.com/jcp/assessment/harking-cherry-picking-p-hacking-fishing-expeditions-and-data-dredging-and-mining-as-questionable-research-practices/)
 </div>
 
 ## Initiatives pour changer les "cultures scientifiques"
@@ -247,12 +285,13 @@ La *reproductibilité* des résutats n'est pas synonyme de **validité**, mais d
 ![](images/initiatives.png)
 </center>
 
-<div class="tiny">
+
 - Organismes subventionnaires: [NIH](https://grants.nih.gov/policy/reproducibility/guidance.htm)
-- Éditeurs et associations scientifiques: [American Economic Association](https://replicationnetwork.com/2019/07/17/big-changes-in-reproducibility-policies-by-the-american-economic-association/)
+- Éditeurs et associations scientifiques (politiques d'accès aux données et à la documentation: [American Economic Association](https://replicationnetwork.com/2019/07/17/big-changes-in-reproducibility-policies-by-the-american-economic-association/)
+- Augmentation du nombre d'études sur les biais de publication et autres pratiques questionnables
 - Création de réseaux de "réplication": [Political science Replication Network](https://replicationnetwork.com/tag/political-science-replication/), [OSF - Many Labs](https://osf.io/8cd4r/)
 - Préenregistrement d'études: [OSF - Registered Reports](https://osf.io/rr/) > soumettre méthodologie avant de faire recherche pour contrôler biais possibles. Journal publie résultats, significatifs ou non (peu importe la valeur p!)
-</div>
+
 
 ## Initiatives pour changer les "cultures scientifiques"
 
@@ -316,11 +355,11 @@ La *reproductibilité* des résutats n'est pas synonyme de **validité**, mais d
 
 ### 5 volets essentiels à considérer:
 
-> 1. Planifier
-> 2. Organiser
-> 3. Documenter
-> 4. Automatiser
-> 5. Diffuser
+> 1. Planification
+> 2. Organisation
+> 3. Documentation
+> 4. Automatisation
+> 5. Diffusion
 
 
 ## Bonne pratique #1: Planifier!
@@ -611,6 +650,8 @@ Plusieurs outils de programmation  peuvent être utilisés pour améliorer la re
 - Stodden, Victoria, 5 avril, 2018, *The Science of Computational Reproducibility*, Speaker Lecture, School of Information Sciences University of Illinois at Urbana-Champaign, https://web.stanford.edu/~vcs/talks/UDel-2018-STODDEN.pdf
 
 - Rui, Sandrine, "Réflexivité", *Sociologie [En ligne], Les 100 mots de la sociologie*, mis en ligne le 01 août 2012, consulté le 30 octobre 2020.,  http://journals.openedition.org/sociologie/1584
+
+- Vilhuber, Lars, 2020, "Reproducibility and Replicability in Economics", *Harvard Data Science Review*, 2(4), https://doi.org/10.1162/99608f92.4f6b9e67
 
 - Wicherts JM, Bakker M, Molenaar D, 2011, "Willingness to Share Research Data Is Related to the Strength of the Evidence and the Quality of Reporting of Statistical Results". *PLoS ONE* 6(11): e26828. https://doi.org/10.1371/journal.pone.0026828
 </div>
