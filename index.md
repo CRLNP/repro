@@ -1,10 +1,10 @@
 ---
 title: "Reproductibilité de la recherche: <br> enjeux et bonnes pratiques"
 author: "Caroline Patenaude <br> Bibliothèque des lettres et sciences humaines"
-date: "2021-11-04"
+date: "2021-11-07"
 output:
   slidy_presentation:
-    footer: Caroline Patenaude, BLSH, 8 février 2021, caroline.patenaude@umontreal.ca
+    footer: Caroline Patenaude, BLSH, 9 novembre 2021, caroline.patenaude@umontreal.ca
     highlight: espresso
     keep_md: yes
     theme: cerulean
@@ -25,21 +25,27 @@ output:
 
 </div>
 
+<br>
+
 <div class="large"> 
 
-Formation 1
+Reproductibilité de la recherche
 </div>
 - Comprendre ce qu'est la reproductibilité de la recherche
 - Connaître les bonnes pratiques
 
+<br>
+
 <div class="large"> 
-Formation 2
+RStudio
 </div>
 
 - Se familiariser avec RStudio et le le langage R
 
+<br>
+
 <div class="large"> 
-Formation 3
+RMarkdown
 </div>
 
 - Se familiariser avec RStudio et le package RMarkdown pour générer des documents dynamiques
@@ -253,10 +259,15 @@ Principe à la base de la reproductibilité est que l'unité traditionnelle de l
 
 ## Les causes de *l'irreproductibilité*
 
-- Les causes sont nombreuses et ne sont pas nécessairement liées à une intention de fraude scientifique. Entre autres: 
-- Non disponibilité des données, documentation, codes... (mentionnons l'usage accrue de données protégées).
-- Défaut de maitriser pleinement certaines méthodes et outils > Complexité croissante des modèles d'analyses, des outils, des bases de données.
-- Pression accrue sur les chercheurs (*publish or perish*) peut encourager certaines conduites "hasardeuses" qui mettent en péril l’intégrité scientifique.
+Les causes sont nombreuses et ne sont pas nécessairement liées à une intention de fraude scientifique. Entre autres:  
+
+- Non disponibilité des données, documentation, codes... (mentionnons l'usage accrue de données protégées).  
+
+- Défaut de maitriser pleinement certaines méthodes et outils > Complexité croissante des modèles d'analyses, des outils, des bases de données.  
+
+- Pression accrue sur les chercheurs (*publish or perish*) peut encourager certaines conduites "hasardeuses" qui mettent en péril l’intégrité scientifique.  
+
+
 
 <center>
 ![](images/factors.png)
@@ -266,7 +277,7 @@ Principe à la base de la reproductibilité est que l'unité traditionnelle de l
 [1,500 scientists lift the lid on reproducibility](https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970)
 </div>
 
-## Les causes de la "crise"
+## Les causes de *l'irreproductibilité*
 
 <img align="right"  src="images/jeopardy.png">
 
@@ -276,24 +287,34 @@ Principe à la base de la reproductibilité est que l'unité traditionnelle de l
 
 <div class="footer-note">
 [A manifesto for reproducible science, 2017](https://www.nature.com/articles/s41562-016-0021)
+
 [Questionnable Research Practices, The Journal of Clinical Psychiatry](https://www.psychiatrist.com/jcp/assessment/harking-cherry-picking-p-hacking-fishing-expeditions-and-data-dredging-and-mining-as-questionable-research-practices/)
 </div>
 
-## Initiatives pour changer les "cultures scientifiques"
+## Les solutions
 
 <center>
 ![](images/initiatives.png)
 </center>
 
+<br>
 
-- Organismes subventionnaires: [NIH](https://grants.nih.gov/policy/reproducibility/guidance.htm)
-- Éditeurs et associations scientifiques (politiques d'accès aux données et à la documentation: [American Economic Association](https://replicationnetwork.com/2019/07/17/big-changes-in-reproducibility-policies-by-the-american-economic-association/)
-- Augmentation du nombre d'études sur les biais de publication et autres pratiques questionnables
-- Création de réseaux de "réplication": [Political science Replication Network](https://replicationnetwork.com/tag/political-science-replication/), [OSF - Many Labs](https://osf.io/8cd4r/)
-- Préenregistrement d'études: [OSF - Registered Reports](https://osf.io/rr/) > soumettre méthodologie avant de faire recherche pour contrôler biais possibles. Journal publie résultats, significatifs ou non (peu importe la valeur p!)
+**Initiatives diverses pour changer la culture et le *marché* de la recherche et de la publication scientifiques: [*The Slow Science Manifesto*](https://slowscience.be/the-slow-science-manifesto-2/)**
+![](images/snails.png)
+
+<br>
+
+- Politiques et lignes directrices d'organismes subventionnaires: [NIH](https://grants.nih.gov/policy/reproducibility/guidance.htm)
+
+- Politiques et lignes directrices d'éditeurs et d'associations scientifiques (accès aux données et à la documentation): [DA-RT Principles (American Political Science Association)](https://www.dartstatement.org/), [AJPS Verification Policy](https://ajps.org/ajps-verification-policy/),  [American Economic Association](https://replicationnetwork.com/2019/07/17/big-changes-in-reproducibility-policies-by-the-american-economic-association/), [Peer Reviewers' Openness Initiative (psychologie)](https://www.opennessinitiative.org/), [CONSORT (Consolidated Standards of Reporting Trials)](http://www.consort-statement.org/).
+
+- Augmentation du nombre d'études empiriques sur les biais de publication et autres pratiques questionnables (Christensen, 2018)
+
+- Création de réseaux de "réplication": [Political Science Replication Network](https://replicationnetwork.com/tag/political-science-replication/), [OSF - Many Labs](https://osf.io/8cd4r/)
+- Développement du pré-enregistrement d'études (*Registered Reports* (RR), *Pre-analysis Plans* (PAP)): [AEA RCT Registry - The American Economic Association's registry for randomized controlled trials](https://www.socialscienceregistry.org/), [OSF - Registered Reports](https://osf.io/rr/) -> soumettre méthodologie avant de faire recherche pour contrôler biais possibles. Journal publie résultats, significatifs ou non.
 
 
-## Initiatives pour changer les "cultures scientifiques"
+## Les solutions
 
 <iframe src="https://www.cos.io/" scrolling= "yes"></iframe>
 
@@ -589,7 +610,7 @@ Plusieurs outils de programmation  peuvent être utilisés pour améliorer la re
 
 <div class="footnotesize">
 
-- Baker,Monya,  26 May 2016, 1",500 scientists lift the lid on reproducibility", *Nature* 533, doi:10.1038/533452a 
+- Baker, Monya,  26 May 2016, 1",500 scientists lift the lid on reproducibility", *Nature* 533, doi:10.1038/533452a 
 
 - Banks, G.C., Rogelberg, S.G., Woznyj, H.M. et al. Editorial: Evidence on Questionable Research Practices: The Good, the Bad, and the Ugly. J Bus Psychol 31, 323–338 (2016). https://doi.org/10.1007/s10869-016-9456-7
 
@@ -605,11 +626,11 @@ Plusieurs outils de programmation  peuvent être utilisés pour améliorer la re
 
 - Chen, X., Dallmeier-Tiessen, S., Dasler, R. et al., 2019, "Open is not enough". *Nature Phys*, 15, 113–119, https://doi.org/10.1038/s41567-018-0342-2
 
+- Christensen, G. et E. Miguel, 2018, "Transparency, Reproducibility, and the Credibility of Economics Research", Journa of Economic Literature, vol.56, no.3, 920-980. https://www.aeaweb.org/articles?id=10.1257/jel.20171350.
+
 - Claerbout, Jon, Martin Karrenbach, 1992, *Electronic Documents Give Reproducible Research a New Meaning*, invited paper at the October 25-29, 1992 meeting of the Society of Exploration Geophysics, http://sep.stanford.edu/oldsep/matt/join/redoc/web/seg92.html
 
-
 - Desquilbet, Loïc , Sabrina Granger, Boris Hejblum, Arnaud Legrand, Pascal Pernot, Nicolas Rougier, 2019, *Vers une recherche reproductible. Faire évoluer ses pratiques*, https://rr-france.github.io/bookrr/
-
 
 - Donoho,David L., July 2010, "An invitation to reproducible computational research", *Biostatistics*, 11, 3, 385–388, https://doi.org/10.1093/biostatistics/kxq028
 
