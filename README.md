@@ -1,7 +1,7 @@
 # repro
 
-Atelier d'inroduction à la reproductibilité de la recherche
+### Atelier d'inroduction à la reproductibilité de la recherche
 
-Bibliothèque des lettres et sciences humaines
+Bibliothèque des lettres et sciences humaines, Université de Montréal
 
 2020
